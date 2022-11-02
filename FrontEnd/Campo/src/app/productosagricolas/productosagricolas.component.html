@@ -1,0 +1,28 @@
+<div class="w-100">
+<mat-form-field appearance="standard" class="mx-5 w-50">
+  <mat-label>Buscar</mat-label>
+  <input
+    matInput
+    (keyup)="applyFilter($event)"
+    placeholder="Buscar Producto"
+    #input
+  />
+</mat-form-field>
+<div class="mat-elevation-z8 example-container mx-5">
+  <div class="row" style="width:95%">
+    <div *ngFor="let img of listaimagen" class="column w-25 text-center">
+      <img
+        src="../../assets/principal/{{ img.imgicon }}.jpg"
+        alt="Img"
+        style="width: 30%"
+        class="m-3"
+        (click)="openDialog(img.id)"
+      />
+      <p class="text-center">
+        {{ img.nombre }}
+      </p>
+    </div>
+  </div>
+</div>
+<!-- <a routerLink="home" class="btn btn-primary mt-3 ml-2">Regresar</a> -->
+</div>

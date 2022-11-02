@@ -1,0 +1,223 @@
+[
+    {
+        "name": "katzgrau/klogger",
+        "version": "1.2.1",
+        "version_normalized": "1.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "http://gitlab.coppel.com/oc/klogger.git",
+            "reference": "63a29159c7aa5cff39b7211b0f38e36b4a090318"
+        },
+        "require": {
+            "php": ">=5.3",
+            "psr/log": "^1.0.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.0.*"
+        },
+        "time": "2018-03-22T17:32:53+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Katzgrau\\KLogger\\": "src/"
+            },
+            "classmap": [
+                "src/"
+            ]
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kenny Katzgrau",
+                "email": "katzgrau@gmail.com"
+            },
+            {
+                "name": "Dan Horrigan",
+                "email": "dan@dhorrigan.com"
+            }
+        ],
+        "description": "A Simple Logging Class",
+        "keywords": [
+            "logging"
+        ]
+    },
+    {
+        "name": "nategood/httpful",
+        "version": "0.2.20",
+        "version_normalized": "0.2.20.0",
+        "source": {
+            "type": "git",
+            "url": "http://gitlab.coppel.com/oc/httpful.git",
+            "reference": "4c2cf870022507d6b45b7441d3e449538b4c24ff"
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2015-12-04T16:12:48+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Httpful": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nate Good",
+                "email": "me@nategood.com",
+                "homepage": "http://nategood.com"
+            }
+        ],
+        "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
+        "homepage": "http://github.com/nategood/httpful",
+        "keywords": [
+            "api",
+            "curl",
+            "http",
+            "requests",
+            "rest",
+            "restful"
+        ]
+    },
+    {
+        "name": "oc/rac",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "http://gitlab.coppel.com/oc/rac.git",
+            "reference": "41ac9380c61253013355913804349b788376efaf"
+        },
+        "time": "2018-08-01T21:00:32+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "license": [
+            "Propietary"
+        ],
+        "authors": [
+            {
+                "name": "Sergio Flores",
+                "email": "sangulo@coppel.com"
+            },
+            {
+                "name": "Edgar Ruiz",
+                "email": "eruizp@coppel.com"
+            },
+            {
+                "name": "Carlos Toscano",
+                "email": "ctoscano@coppel.com"
+            }
+        ],
+        "description": "Restful API Coppel"
+    },
+    {
+        "name": "psr/log",
+        "version": "v1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "http://gitlab.coppel.com/oc/log.git",
+            "reference": "233dbe85424c04aa42756d3c4d8974fb4f1391af"
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2018-03-22T16:54:24+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "tecnickcom/tcpdf",
+        "version": "6.2.12",
+        "version_normalized": "6.2.12.0",
+        "source": {
+            "type": "git",
+            "url": "http://gitlab.coppel.com/oc/tcpdf.git",
+            "reference": "259d5784c8b874980fdab7202ddf77d9b83840f8"
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-03-01T23:42:24+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "fonts",
+                "config",
+                "include",
+                "tcpdf.php",
+                "tcpdf_parser.php",
+                "tcpdf_import.php",
+                "tcpdf_barcodes_1d.php",
+                "tcpdf_barcodes_2d.php",
+                "include/tcpdf_colors.php",
+                "include/tcpdf_filters.php",
+                "include/tcpdf_font_data.php",
+                "include/tcpdf_fonts.php",
+                "include/tcpdf_images.php",
+                "include/tcpdf_static.php",
+                "include/barcodes/datamatrix.php",
+                "include/barcodes/pdf417.php",
+                "include/barcodes/qrcode.php"
+            ]
+        },
+        "license": [
+            "LGPLv3"
+        ],
+        "authors": [
+            {
+                "name": "Nicola Asuni",
+                "email": "info@tecnick.com",
+                "homepage": "http://nicolaasuni.tecnick.com"
+            }
+        ],
+        "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
+        "homepage": "http://www.tcpdf.org/",
+        "keywords": [
+            "PDF",
+            "PDFD32000-2008",
+            "barcodes",
+            "datamatrix",
+            "pdf417",
+            "qrcode",
+            "tcpdf"
+        ]
+    }
+]

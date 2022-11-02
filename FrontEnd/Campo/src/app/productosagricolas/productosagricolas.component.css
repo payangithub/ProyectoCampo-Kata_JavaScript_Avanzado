@@ -1,0 +1,11 @@
+.example-container {
+    height: 650px;
+    /*width: 550px;*/
+    width: 95%;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}

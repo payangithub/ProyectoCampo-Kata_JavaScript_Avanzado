@@ -1,0 +1,17 @@
+<h1 mat-dialog-title>Variedades del Producto</h1>
+<div mat-dialog-content>
+    
+    <div class="row">
+        <div *ngFor="let img of listaimagen.data" class="column w-100 text-center">
+        
+            <img src="../../assets/background/{{img.imgbackgraound}}" alt="Img" style="width:30%" class="m-3"
+                >
+            <p class="text-center">
+                {{img.caracteristicas}}
+            </p>
+        </div>
+    </div>
+</div>
+<div mat-dialog-actions>
+    <button mat-button mat-dialog-close>Regresar</button>
+</div>
